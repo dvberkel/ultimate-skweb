@@ -13,3 +13,9 @@ gfbp := Group([lfbp,rfbp]);
 # Two faces make on piece, this is reflected below
 
 bs := Blocks(gfbp, [1..8]);
+
+# gfbp acts on the block-system
+
+hom := ActionHomomorphism(gfbp, bs, OnSets);
+
+im := Image(hom); # Isomorphic to gpbp 
