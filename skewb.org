@@ -1,5 +1,7 @@
 * Ultimate Skewb
 The ultimate skewb is a permutation puzzle. We will analyse it with gap.
+Ultimately we would like to know the structure of the group. In order to answer
+that question, we will develop the necessary theory.
 
 ** Subgroup
 We will focus our attention first on a subgroup of the ultimate skewb. In
